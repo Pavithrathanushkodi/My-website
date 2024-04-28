@@ -1,0 +1,28 @@
+.card{
+    margin-top: 8%;
+    margin-left: 4%;
+    margin-right:4%;
+    border-style: double;
+    border-radius: 20px;
+    border-color: blueviolet;
+}
+card-header{
+    text-align: center;
+    font-size: 80px;
+    color:black;
+    font-weight: bold;
+}
+card-body{
+    padding:20px;
+    font-size:30px;
+    color:blue;
+}
+card-footer{
+    text-align: center;
+    font-size:80px;
+    font-style:italic;
+}
+.card-body a{
+    text-decoration: none;
+    color: blue;
+}

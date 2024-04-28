@@ -1,0 +1,49 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width:100%;
+  background-image: url('C:/Users/lenovo/Downloads/view-arrangement-with-keyboard-notebooks.jpg');
+  opacity: 1;
+}
+
+.register-form {
+  width: 500px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff; /* Background color */
+  box-shadow: 
+    0 0 10px rgba(0, 0, 0, 0.1), /* First shadow */
+    0 0 15px rgba(0, 0, 0, 0.2); /* Second shadow */
+    
+}
+
+.register-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.register-form input[type="text"],
+.register-form input[type="date"],
+.register-form input[type="tel"],
+.register-form input[type="time"] {
+  width: calc(100% - 16px); /* Subtracting the padding */
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.register-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
